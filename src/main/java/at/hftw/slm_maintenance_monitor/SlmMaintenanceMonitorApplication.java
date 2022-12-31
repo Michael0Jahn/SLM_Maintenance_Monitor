@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SlmMaintenanceMonitorApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SlmMaintenanceMonitorApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SlmMaintenanceMonitorApplication.class, args);
+    }
 
 }
