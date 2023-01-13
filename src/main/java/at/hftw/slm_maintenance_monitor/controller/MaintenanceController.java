@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MaintenanceController {
-    private static String message = "";
+    private static String message = "Everything operates as expected";
 
     @GetMapping("/")
     public String Message(){
         return message;
     }
-    @GetMapping("/status/default")
+    @GetMapping("/status/reset")
     public String defaultMessage(){
         message = "Everything operates as expected";
         return message;
