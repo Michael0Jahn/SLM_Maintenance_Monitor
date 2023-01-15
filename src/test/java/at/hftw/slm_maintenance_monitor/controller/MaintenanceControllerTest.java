@@ -20,20 +20,20 @@ class MaintenanceControllerTest {
 
     @Test
     void message() throws Exception {
-        String message=new MaintenanceController().Message();
+        String TestMessage=new MaintenanceController().Message();
         assertEquals("",
-                message);
+                TestMessage);
     }
 
     @Test
     void defaultMessage() {
-        String message=new MaintenanceController().defaultMessage();
-        assertEquals("Everything operates as expected",message);
+        String TestDefaultMessage=new MaintenanceController().defaultMessage();
+        assertEquals("Everything operates as expected",TestDefaultMessage);
     }
 
     @Test
     void serviceMessage() {
-        String message=new MaintenanceController().serviceMessage("1234");
-        assertEquals(message,message);
+        String TestServiceMessage=new MaintenanceController().serviceMessage("1234");
+        assertEquals(TestServiceMessage,TestServiceMessage);
     }
 }
