@@ -34,6 +34,6 @@ class MaintenanceControllerTest {
     @Test
     void serviceMessage() {
         String TestServiceMessage=new MaintenanceController().serviceMessage("1234");
-        assertEquals(TestServiceMessage,TestServiceMessage);
+        assertEquals("1234",TestServiceMessage);
     }
 }
