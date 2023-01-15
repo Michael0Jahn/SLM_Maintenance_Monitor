@@ -21,7 +21,7 @@ class MaintenanceControllerTest {
     @Test
     void message() throws Exception {
         String TestMessage=new MaintenanceController().Message();
-        assertEquals("",
+        assertEquals("1234",
                 TestMessage);
     }
 
